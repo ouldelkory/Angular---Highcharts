@@ -1,12 +1,2 @@
-
-let my_a:number = 10;
-
-enum Color {
-    Red = 1,
-    Green,
-    Blue,
-  }
-let colorName: string = Color[2];
-  
-// Displays 'Green ok2'
-console.log(colorName);
+let list: Array<number> = [189, 28, 35];
+console.log(list[3])
